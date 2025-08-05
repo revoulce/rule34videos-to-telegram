@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Rule34 Video Uploader",
+  "version": "1.0",
+  "description": "Automatically finds video details and download links on rule34video.com and sends them to a local server via WebSocket.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://rule34video.com/*",
+    "ws://localhost:4000/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://rule34video.com/video/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png"
+  }
+}
