@@ -234,3 +234,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+.idea/discord.xml
+.idea/misc.xml
+.idea/workspace.xml
