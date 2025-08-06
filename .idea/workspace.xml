@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AngularSettings">
+    <option name="useTypesFromServer" value="true" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dc911f47-0d8f-4c71-9592-e4085a86426b" name="Changes" comment="Add package.json for server setup with dependencies">
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/background.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/extension/content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/icons/icon16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/icons/icon32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/jquery-3.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/extension/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;revoulce&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:revoulce/rule34videos-to-telegram.git&quot;,
+    &quot;accountId&quot;: &quot;ea628a18-3318-4731-a273-1f613e293101&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="30skI2OWJ8OFTgc8lrrkQYKrs07" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-WS-252.23892.411" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc911f47-0d8f-4c71-9592-e4085a86426b" name="Changes" comment="" />
+      <created>1754423586199</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754423586199</updated>
+      <workItem from="1754423587223" duration="552000" />
+      <workItem from="1754424315046" duration="931000" />
+      <workItem from="1754425270970" duration="4085000" />
+      <workItem from="1754481997832" duration="759000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add initial implementation of Rule34 Video Uploader extension&#10;&#10;- Create .gitignore to exclude unnecessary files&#10;- Add manifest.json for extension configuration&#10;- Implement background.js for WebSocket connection&#10;- Develop content.js to extract video data from rule34video.com&#10;- Create popup.html and popup.js for user interface and interaction">
+      <option name="closed" value="true" />
+      <created>1754425287091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754425287091</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactor video data handling: remove WebSocket implementation and replace with HTTP POST requests to send video data to the server">
+      <option name="closed" value="true" />
+      <created>1754482034507</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754482034507</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add package.json for server setup with dependencies">
+      <option name="closed" value="true" />
+      <created>1754482063381</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754482063381</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add initial implementation of Rule34 Video Uploader extension&#10;&#10;- Create .gitignore to exclude unnecessary files&#10;- Add manifest.json for extension configuration&#10;- Implement background.js for WebSocket connection&#10;- Develop content.js to extract video data from rule34video.com&#10;- Create popup.html and popup.js for user interface and interaction" />
+    <MESSAGE value="Refactor video data handling: remove WebSocket implementation and replace with HTTP POST requests to send video data to the server" />
+    <MESSAGE value="Add package.json for server setup with dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add package.json for server setup with dependencies" />
+  </component>
+  <component name="VueSettings">
+    <option name="useTypesFromServer" value="true" />
+  </component>
+</project>
