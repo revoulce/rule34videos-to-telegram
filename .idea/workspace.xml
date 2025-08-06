@@ -7,20 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc911f47-0d8f-4c71-9592-e4085a86426b" name="Changes" comment="Add package.json for server setup with dependencies">
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/background.js" beforeDir="false" />
+    <list default="true" id="dc911f47-0d8f-4c71-9592-e4085a86426b" name="Changes" comment="Refactor extension: remove WebSocket code and update manifest for video downloader functionality">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extension/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/extension/content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/icons/icon16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/icons/icon32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/jquery-3.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/extension/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/popup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +81,7 @@
       <workItem from="1754423587223" duration="552000" />
       <workItem from="1754424315046" duration="931000" />
       <workItem from="1754425270970" duration="4085000" />
-      <workItem from="1754481997832" duration="759000" />
+      <workItem from="1754481997832" duration="1099000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial implementation of Rule34 Video Uploader extension&#10;&#10;- Create .gitignore to exclude unnecessary files&#10;- Add manifest.json for extension configuration&#10;- Implement background.js for WebSocket connection&#10;- Develop content.js to extract video data from rule34video.com&#10;- Create popup.html and popup.js for user interface and interaction">
       <option name="closed" value="true" />
@@ -118,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754482063381</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Refactor extension: remove WebSocket code and update manifest for video downloader functionality">
+      <option name="closed" value="true" />
+      <created>1754486092081</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1754486092081</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +125,8 @@
     <MESSAGE value="Add initial implementation of Rule34 Video Uploader extension&#10;&#10;- Create .gitignore to exclude unnecessary files&#10;- Add manifest.json for extension configuration&#10;- Implement background.js for WebSocket connection&#10;- Develop content.js to extract video data from rule34video.com&#10;- Create popup.html and popup.js for user interface and interaction" />
     <MESSAGE value="Refactor video data handling: remove WebSocket implementation and replace with HTTP POST requests to send video data to the server" />
     <MESSAGE value="Add package.json for server setup with dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add package.json for server setup with dependencies" />
+    <MESSAGE value="Refactor extension: remove WebSocket code and update manifest for video downloader functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor extension: remove WebSocket code and update manifest for video downloader functionality" />
   </component>
   <component name="VueSettings">
     <option name="useTypesFromServer" value="true" />
